@@ -1,0 +1,243 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #101c29;
+}
+
+.variable.parameter.function {
+  color: #ebe7e3;
+}
+
+.comment, .punctuation.definition.comment {
+  color: #AFB8BF;
+}
+
+.punctuation.definition.string, .punctuation.definition.variable, .punctuation.definition.string, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.array {
+  color: #ebe7e3;
+}
+
+.none {
+  color: #fc4349;
+}
+
+.keyword.operator {
+  color: #fc4349;
+}
+
+.keyword {
+  color: #fc4349;
+}
+
+.variable {
+  color: #FF6347;
+}
+
+.entity.name.function, .meta.require, .support.function.any-method {
+  color: #3beb29;
+}
+
+.support.class, .entity.name.class, .entity.name.type.class, .meta.class {
+  color: #fddb5b;
+}
+
+.keyword.other.special-method {
+  color: #fc4349;
+}
+
+.storage {
+  color: #ebe7e3;
+}
+
+.support.function {
+  color: #63eee7;
+}
+
+.string, .constant.other.symbol, .entity.other.inherited-class {
+  color: #4FD0FF;
+}
+
+.constant.numeric {
+  color: #80AACA;
+}
+
+.none {
+  color: #ebe7e3;
+}
+
+.none {
+  color: #ebe7e3;
+}
+
+.constant {
+  color: #5FA1D8;
+}
+
+.entity.name.tag {
+  color: #4ae842;
+}
+
+.punctuation.tag.html {
+  color: #4ae842;
+}
+
+.entity.other.attribute-name {
+  color: #fefefe;
+}
+
+.entity.other.attribute-name.id, .punctuation.definition.entity {
+  color: #ebe7e3;
+}
+
+.meta.selector {
+  color: #ebe7e3;
+}
+
+.none {
+  color: #fddb5b;
+}
+
+.markup.heading .punctuation.definition.heading, .entity.name.section {
+  color: #ebe7e3;
+}
+
+.keyword.other.unit {
+  color: #8DB7EF;
+}
+
+.markup.bold, .punctuation.definition.bold {
+  font-weight: bold;
+  color: #fc4349;
+}
+
+.markup.italic, .punctuation.definition.italic {
+  font-style: italic;
+  color: #fddb5b;
+}
+
+.markup.raw.inline {
+  color: #ebe7e3;
+}
+
+.string.other.link, .punctuation.definition.string.end.markdown {
+  color: #ebe7e3;
+}
+
+.meta.link {
+  color: #ebe7e3;
+}
+
+.markup.list {
+  color: #63cce3;
+}
+
+.markup.quote {
+  color: #fee14f;
+}
+
+.meta.separator {
+  color: #ebe7e3;
+  background-color: #4f5b66;
+}
+
+.markup.inserted {
+  color: #3beb29;
+}
+
+.markup.deleted {
+  color: #fc4349;
+}
+
+.markup.changed {
+  color: #63cce3;
+}
+
+.constant.other.color {
+  color: #ebe7e3;
+}
+
+.string.regexp {
+  color: #ebe7e3;
+}
+
+.constant.character.escape {
+  color: #fc4349;
+}
+
+.punctuation.section.embedded, .variable.interpolation {
+  color: #63cce3;
+}
+
+.invalid.illegal {
+  color: #eff1f5;
+  background-color: #fc4349;
+}
+
+.invalid.broken {
+  color: #2b303b;
+  background-color: #fddb5b;
+}
+
+.invalid.deprecated {
+  color: #eff1f5;
+  background-color: #838c95;
+}
+
+.invalid.unimplemented {
+  color: #eff1f5;
+  background-color: #5a6068;
+}
+
+.support.type.property-name {
+    color: #4ae842;
+}
+.meta.property-list .meta.property-name {
+    color: #dc593a;
+}
